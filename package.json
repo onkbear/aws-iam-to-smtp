@@ -1,0 +1,15 @@
+{
+  "name": "aws-iam-to-smtp",
+  "version": "0.0.1",
+  "description": "Convert a Secret Access Key for an IAM user to an SMTP password",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onkbear/aws-iam-to-smtp.git"
+  },
+  "author": "onkbear",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/onkbear/aws-iam-to-smtp/issues"
+  }
+}
