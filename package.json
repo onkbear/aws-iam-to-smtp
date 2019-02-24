@@ -8,7 +8,8 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "lint": "eslint *.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/onkbear/aws-iam-to-smtp/issues"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1"
   }
 }
