@@ -1,6 +1,7 @@
 # AWS IAM to SMTP
 
 [![Build Status](https://travis-ci.org/onkbear/aws-iam-to-smtp.svg?branch=master)](https://travis-ci.org/onkbear/aws-iam-to-smtp)
+[![npm version](https://img.shields.io/npm/v/aws-iam-to-smtp.svg)](https://www.npmjs.com/package/aws-iam-to-smtp)
 
 Calculate Amazon SES SMTP Credentials from IAM Secret Access Key.
 
@@ -23,10 +24,8 @@ console.log(smtpPassword);
 
 ### awsIamToSmtp.calculateKey(key, region)
 
-- key
-  - AWS Secret Access Key
-- region
-  - 'us-east-1', 'us-west-2', 'eu-west-1'
+- `key` - AWS Secret Access Key
+- `region` - 'us-east-1', 'us-west-2', 'eu-west-1'
 
 ## License
 
